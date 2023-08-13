@@ -1,0 +1,92 @@
+body{
+    background-image: linear-gradient(135deg, rgba(255,171,0,1) 0%, rgba(250,228,23,1) 75%, rgba(255,164,26,1) 100%);
+}
+h1{
+    width: 100%;
+    text-align: center;
+    font-size: 5rem;
+    font-family: "rubik";
+    text-shadow: 3px 3px 3px black;
+}
+h1 a:hover{
+    color: dodgerblue;
+    text-shadow: 5px 5px 5px grey;
+}
+#random-number{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+
+    background: rgb(34,193,195);
+    background-image: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(45,253,128,1) 100%);
+    margin:2.5rem auto;
+    text-align: center;
+    position: relative;
+    box-shadow:0 0 20px aliceblue;
+    cursor: pointer;
+}
+#random-number i{
+    font-size: 5rem;
+    position: absolute;
+    top: 30px;
+    right: 35px;
+}
+#random-number i:hover{
+    transform: rotate(360deg);
+    transition: 500ms;
+    color: white;
+}
+#game{
+    display: none;
+    grid-template-columns: repeat(2,1fr);
+}
+#play{
+    display: none;
+    margin-top: 2.5rem;
+    position: relative;
+}
+#play input{
+position: absolute;
+    top: 30px;
+    padding: .5rem;
+    background: rgb(34,193,195);
+    background-image: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(45,253,128,1) 100%);
+    font-size: 2rem;
+    border: none;
+}
+#play input:focus-visible{
+    outline: none;
+}
+
+#play #wrong{
+    width: 50%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    position: absolute;
+    top: 50%;
+
+}
+#play #wrong img{
+    display: none;
+    width: 100%;
+    height: 100%;
+}
+#play button{
+    cursor: pointer;
+    background: #058dff;
+    color: white;
+    text-shadow: 0 0 2px black;
+    font-size: 2rem;
+    position: absolute;
+    top: 30px;
+    right: 25%;
+    padding: .5rem 1rem;
+    border: none;
+}
+#play button:hover{
+    transform: scale(1.2);
+    box-shadow: 0 0 30px white;
+    border: 2px solid white;
+    transition: 500ms;
+}
