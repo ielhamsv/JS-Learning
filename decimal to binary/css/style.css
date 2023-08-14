@@ -1,0 +1,103 @@
+canvas {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+h1{
+    top: 5%;
+    font-size: 5rem;
+    width: 100%;
+    text-align: center;
+    font-family: "rubik";
+    font-weight: bold;
+    color: white;
+    text-shadow: 0 0 40px red;
+    position: absolute;
+}
+#convert{
+    position: relative;
+    top: 300px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    text-align: center;
+}
+#binary{
+    position: relative;
+    width: 50%;
+}
+#decimal{
+    position: relative;
+    width: 50%;
+}
+#binary h2{
+    width: 100%;
+    margin: auto;
+    font-size: 2rem;
+    color: lawngreen;
+    text-shadow: 0 0 20px white;
+    font-weight: bold;
+    font-family: "rubik";
+    position: absolute;
+    display: block;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+#decimal h2{
+    width: 100%;
+    margin: auto;
+    font-size: 2rem;
+    color: lawngreen;
+    text-shadow: 0 0 20px white;
+    font-weight: bold;
+    font-family: "rubik";
+    position: absolute;
+    display: block;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+#binary input{
+    position: absolute;
+    display: block;
+    top: 50px;
+    right: 0;
+    width: 50%;
+    font-size: 2rem;
+    font-weight: bold;
+    font-family: "rubik";
+    background: rgb(9,189,59);
+    background-image: radial-gradient(circle, rgba(9,189,59,1) 30%, rgba(0,255,12,1) 45%, rgba(145,255,137,1) 59%, rgba(29,134,33,1) 100%);
+}
+#decimal input{
+    position: absolute;
+    display: block;
+    top: 50px;
+    right: 0;
+    width: 50%;
+    font-size: 2rem;
+    font-weight: bold;
+    font-family: "rubik";
+    background: rgb(9,189,59);
+    background-image: radial-gradient(circle, rgba(9,189,59,1) 30%, rgba(0,255,12,1) 45%, rgba(145,255,137,1) 59%, rgba(29,134,33,1) 100%);
+}
+
+#btn{
+    width: 150px;
+    position: absolute;
+    top:450px;
+    background: rgb(9,189,59);
+    background-image: radial-gradient(circle, rgba(9,189,59,1) 30%, rgba(0,255,12,1) 45%, rgba(145,255,137,1) 59%, rgba(29,134,33,1) 100%);
+    font-family: "rubik";
+    color: white;
+    font-weight: bold;
+    font-size: 1.5rem;
+    right: 50%;
+}
+#btn:hover{
+    border: none;
+    box-shadow: 0 0 50px white;
+    cursor: pointer;
+    color: black;
+}

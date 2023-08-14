@@ -1,0 +1,16 @@
+@font-face {
+    font-family: "rubik";
+    src: url(../fonts/Rubik-Regular.eot) format("embedded-opentype"),
+    url(../fonts/Rubik-Regular.woff2) format("woff2"),
+    url(../fonts/Rubik-Regular.woff) format("woff"),
+    url(../fonts/Rubik-Regular.ttf) format("truetype");
+}
+@font-face {
+    font-family: "italik";
+    src: url(../fonts/italik/Rubik-SemiBoldItalic.ttf) format("truetype");
+}
+
+@font-face {
+font-family: "Borel";
+    src: url("../fonts/Borel/Borel-Regular.ttf") format("truetype");
+}
