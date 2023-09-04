@@ -1,0 +1,96 @@
+#container{
+    width: 100%;
+    height: 100vh;
+    background-color: #f5a42f;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#open-btn{
+    background-color: #ffe235;
+    padding: .5rem;
+    width: 100px;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 0 5px black;
+    font-size: 1.2rem;
+    font-family: "rubik";
+    transition: 300ms;
+}
+#open-btn:hover{
+    transform: scale(1.3);
+    cursor: pointer;
+    box-shadow: 0 0 5px white;
+    color: white;
+    background-color: #fdd200;
+}
+#pop-up{
+    background-color: white;
+    position: fixed;
+    bottom: 20px;
+    left: -100%;
+    border-radius: 10px;
+    width: 23%;
+    text-align: center;
+    padding-bottom: 1.5rem;
+    transition: 600ms;
+}
+.open{
+    left: 15px!important;
+}
+#pop-up img{
+    width: 23%;
+    margin:1.5rem auto;
+}
+#pop-up h1{
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    font-family: "rubik";
+    font-weight: bold;
+}
+#pop-up p{
+    width: 85%;
+    margin: .5rem auto;
+    font-family: "rubik";
+    color: #656161;
+}
+#close-btn{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    border: none;
+    background-color: white;
+    font-size: 2rem;
+    color: #706a6a;
+}
+#close-btn:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+    color: #857e7e;
+}
+#accept{
+    display: block;
+    border-radius: 5px;
+    color: white;
+    font-family: "rubik";
+    background-color: #ffd427;
+    width: 85%;
+    padding: .5rem;
+    margin:.8rem auto;
+}
+#customize{
+    color: grey;
+    font-family: "rubik";
+}
+
+
+
+
+
+
+
+
+
+
+
+
